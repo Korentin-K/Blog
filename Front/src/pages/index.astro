@@ -1,0 +1,12 @@
+---
+import MySiteLayout from '../layouts/Layout.astro';
+import { Image } from 'astro:assets';
+import photo from '../../public/homePic.jpg';
+---
+<MySiteLayout title="">
+	<div class="lg:pt-44 pt-24 lg:pl-24 pl-4">
+			<div class="col-end flex items-center justify-center">
+					<Image src={photo} alt="photoProfil" class="" width="50" height="50"/>
+			</div>
+	</div>
+</MySiteLayout>
